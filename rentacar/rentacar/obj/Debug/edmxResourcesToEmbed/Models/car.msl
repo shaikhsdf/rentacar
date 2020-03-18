@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="carmodelStoreContainer" CdmEntityContainer="rentcardbEntities">
+    <EntitySetMapping Name="cars">
+      <EntityTypeMapping TypeName="carmodel.car">
+        <MappingFragment StoreEntitySet="car">
+          <ScalarProperty Name="carid" ColumnName="carid" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="pic" ColumnName="pic" />
+          <ScalarProperty Name="fueltype" ColumnName="fueltype" />
+          <ScalarProperty Name="seater" ColumnName="seater" />
+          <ScalarProperty Name="fare" ColumnName="fare" />
+          <ScalarProperty Name="noplate" ColumnName="noplate" />
+          <ScalarProperty Name="status" ColumnName="status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
